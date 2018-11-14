@@ -1,6 +1,5 @@
 package main
 
-//Zero-Systems.io
 //Author - Min
 
 import (
@@ -10,14 +9,14 @@ import (
 	"syscall"
 	//"runtime"
 
-	"github.com/Zero-Systems/agent/pkg/comm"
-	"github.com/Zero-Systems/agent/pkg/connwatch"
-	"github.com/Zero-Systems/agent/pkg/pswatch"
-	"github.com/Zero-Systems/agent/pkg/pswatch/psnotify"
-	"github.com/Zero-Systems/agent/pkg/service"
+	"./pkg/comm"
+	"./pkg/connwatch"
+	"./pkg/pswatch"
+	"./pkg/pswatch/psnotify"
+	"./pkg/service"
 
 	"flag"
-	"github.com/Zero-Systems/agent/pkg/config"
+	"./pkg/config"
 	log "github.com/minjs/golog"
 	"time"
 )

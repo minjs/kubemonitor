@@ -1,13 +1,13 @@
 package pswatch
 
-//Zero-Systems.io
+//bigfoot
 //Author - Min
 
 import (
-	"github.com/Zero-Systems/agent/pkg/comm"
-	"github.com/Zero-Systems/agent/pkg/pswatch/psnotify"
-	"github.com/Zero-Systems/agent/pkg/service"
-	"github.com/Zero-Systems/agent/pkg/utils"
+	"../comm"
+	"../pswatch/psnotify"
+	"../service"
+	"../utils"
 	log "github.com/minjs/golog"
 	"os"
 	"strconv"

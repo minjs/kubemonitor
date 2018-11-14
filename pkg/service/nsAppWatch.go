@@ -5,8 +5,8 @@ import (
 	"io/ioutil"
 	"time"
 
-	"github.com/Zero-Systems/agent/pkg/config"
-	"github.com/Zero-Systems/agent/pkg/utils"
+	"../config"
+	"../utils"
 
 	log "github.com/minjs/golog"
 )

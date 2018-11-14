@@ -6,7 +6,7 @@ import (
 	log "github.com/minjs/golog"
 	goNet "github.com/shirou/gopsutil/net"
 
-	serr "github.com/Zero-Systems/agent/pkg/err"
+	serr "../err"
 	"io"
 	"os"
 	"strconv"

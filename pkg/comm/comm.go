@@ -2,7 +2,7 @@ package comm
 
 import (
 	"encoding/json"
-	"github.com/Zero-Systems/agent/pkg/comm/wsclient"
+	"../comm/wsclient"
 	log "github.com/minjs/golog"
 	"time"
 )

@@ -13,10 +13,10 @@ import (
 
 	"os/user"
 
-	"github.com/Zero-Systems/agent/pkg/comm"
-	"github.com/Zero-Systems/agent/pkg/config"
-	"github.com/Zero-Systems/agent/pkg/err"
-	"github.com/Zero-Systems/agent/pkg/utils"
+	"../comm"
+	"../config"
+	"../err"
+	"../utils"
 )
 
 const (

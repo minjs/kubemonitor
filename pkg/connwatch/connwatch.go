@@ -1,6 +1,6 @@
 package connwatch
 
-//Zero-Systems.io
+//bigfoot
 //Author - Min
 
 /*
@@ -13,9 +13,9 @@ package connwatch
 import "C"
 
 import (
-	"github.com/Zero-Systems/agent/pkg/comm"
-	serr "github.com/Zero-Systems/agent/pkg/err"
-	"github.com/Zero-Systems/agent/pkg/service"
+	"../comm"
+	serr "../err"
+	"../service"
 	mnl "github.com/chamaken/cgolmnl"
 	inet "github.com/chamaken/cgolmnl/inet"
 	log "github.com/minjs/golog"

@@ -5,7 +5,7 @@ import (
 
 	log "github.com/minjs/golog"
 
-	"github.com/Zero-Systems/agent/pkg/config"
+	"../config"
 )
 
 type AlertMessage struct {

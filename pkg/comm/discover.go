@@ -1,12 +1,12 @@
 package comm
 
-//Zero-Systems.io
+//bigfoot
 //Author - Min
 
 import (
 	"encoding/json"
-	"github.com/Zero-Systems/agent/pkg/config"
-	"github.com/Zero-Systems/agent/pkg/utils"
+	"../config"
+	"../utils"
 	log "github.com/minjs/golog"
 	"sync"
 	"time"

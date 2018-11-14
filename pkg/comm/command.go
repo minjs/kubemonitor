@@ -5,9 +5,9 @@ import (
 
 	log "github.com/minjs/golog"
 
-	"github.com/Zero-Systems/agent/pkg/config"
-	"github.com/Zero-Systems/agent/pkg/err"
-	"github.com/Zero-Systems/agent/pkg/utils"
+	"../config"
+	"../err"
+	"../utils"
 )
 
 type CommandPayload struct {

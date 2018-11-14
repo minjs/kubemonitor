@@ -1,6 +1,6 @@
 package err
 
-//Zero-Systems.io
+//bigfoot
 //Author - Min
 
 import "errors"

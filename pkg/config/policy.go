@@ -1,6 +1,6 @@
 package config
 
-//Zero-Systems.io
+//bigfoot
 //Author - Min
 
 type WhiteList struct {
