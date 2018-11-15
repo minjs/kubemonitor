@@ -5,7 +5,7 @@ import (
 
 	log "github.com/minjs/golog"
 
-	"../config"
+	"github.com/minjs/kubemonitor/pkg/config"
 )
 
 type AlertMessage struct {

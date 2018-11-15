@@ -2,7 +2,7 @@ package comm
 
 import (
 	"encoding/json"
-	"../comm/wsclient"
+	"github.com/minjs/kubemonitor/pkg/comm/wsclient"
 	log "github.com/minjs/golog"
 	"time"
 )

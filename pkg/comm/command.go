@@ -5,9 +5,9 @@ import (
 
 	log "github.com/minjs/golog"
 
-	"../config"
-	"../err"
-	"../utils"
+	"github.com/minjs/kubemonitor/pkg/config"
+	"github.com/minjs/kubemonitor/pkg/err"
+	"github.com/minjs/kubemonitor/pkg/utils"
 )
 
 type CommandPayload struct {

@@ -5,8 +5,8 @@ package comm
 
 import (
 	"encoding/json"
-	"../config"
-	"../utils"
+	"github.com/minjs/kubemonitor/pkg/config"
+	"github.com/minjs/kubemonitor/pkg/utils"
 	log "github.com/minjs/golog"
 	"sync"
 	"time"

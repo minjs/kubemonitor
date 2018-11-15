@@ -13,10 +13,10 @@ import (
 
 	"os/user"
 
-	"../comm"
-	"../config"
-	"../err"
-	"../utils"
+	"github.com/minjs/kubemonitor/pkg/comm"
+	"github.com/minjs/kubemonitor/pkg/config"
+	"github.com/minjs/kubemonitor/pkg/err"
+	"github.com/minjs/kubemonitor/pkg/utils"
 )
 
 const (

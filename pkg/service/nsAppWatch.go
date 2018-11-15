@@ -5,8 +5,8 @@ import (
 	"io/ioutil"
 	"time"
 
-	"../config"
-	"../utils"
+	"github.com/minjs/kubemonitor/pkg/config"
+	"github.com/minjs/kubemonitor/pkg/utils"
 
 	log "github.com/minjs/golog"
 )

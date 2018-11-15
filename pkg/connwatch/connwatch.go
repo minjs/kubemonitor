@@ -13,9 +13,9 @@ package connwatch
 import "C"
 
 import (
-	"../comm"
-	serr "../err"
-	"../service"
+	"github.com/minjs/kubemonitor/pkg/comm"
+	serr "github.com/minjs/kubemonitor/pkg/err"
+	"github.com/minjs/kubemonitor/pkg/service"
 	mnl "github.com/chamaken/cgolmnl"
 	inet "github.com/chamaken/cgolmnl/inet"
 	log "github.com/minjs/golog"

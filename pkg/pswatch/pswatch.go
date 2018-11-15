@@ -4,10 +4,10 @@ package pswatch
 //Author - Min
 
 import (
-	"../comm"
-	"../pswatch/psnotify"
-	"../service"
-	"../utils"
+	"github.com/minjs/kubemonitor/pkg/comm"
+	"github.com/minjs/kubemonitor/pkg/pswatch/psnotify"
+	"github.com/minjs/kubemonitor/pkg/service"
+	"github.com/minjs/kubemonitor/pkg/utils"
 	log "github.com/minjs/golog"
 	"os"
 	"strconv"

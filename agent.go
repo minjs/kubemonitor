@@ -9,14 +9,14 @@ import (
 	"syscall"
 	//"runtime"
 
-	"./pkg/comm"
-	"./pkg/connwatch"
-	"./pkg/pswatch"
-	"./pkg/pswatch/psnotify"
-	"./pkg/service"
+	"github.com/minjs/kubemonitor/pkg/comm"
+	"github.com/minjs/kubemonitor/pkg/connwatch"
+	"github.com/minjs/kubemonitor/pkg/pswatch"
+	"github.com/minjs/kubemonitor/pkg/pswatch/psnotify"
+	"github.com/minjs/kubemonitor/pkg/service"
 
 	"flag"
-	"./pkg/config"
+	"github.com/minjs/kubemonitor/pkg/config"
 	log "github.com/minjs/golog"
 	"time"
 )
