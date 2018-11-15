@@ -4,4 +4,4 @@ LDFLAGS=-ldflags "-w -s -X main.Build=${BUILD}"
 CDIR = $(shell pwd)
 
 build:
-	GOPATH=${CDIR}/../../../.. go build ${LDFLAGS} -o ${BINARY}
+	GOPATH=${CDIR}/../../.. go build ${LDFLAGS} -o ${BINARY}
