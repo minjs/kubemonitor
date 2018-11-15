@@ -1,0 +1,55 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "bYqmZrmybLwVz2Mma1+UnPzFlxo=",
+			"path": "github.com/Sirupsen/logrus",
+			"revision": "75068beb13ada9c0ddde611f678523fda7352650",
+			"revisionTime": "2018-06-18T11:14:19Z"
+		},
+		{
+			"checksumSHA1": "PXJFPySnNzsIg0DP4amb04UbAMA=",
+			"path": "github.com/chamaken/cgolmnl",
+			"revision": "c3028ce133b253b08276cc419add7305bcb45a88",
+			"revisionTime": "2017-02-07T23:02:58Z"
+		},
+		{
+			"checksumSHA1": "myCiNf2JT40Z/i4fdp6AhDwNZbo=",
+			"path": "github.com/chamaken/cgolmnl/inet",
+			"revision": "c3028ce133b253b08276cc419add7305bcb45a88",
+			"revisionTime": "2017-02-07T23:02:58Z"
+		},
+		{
+			"checksumSHA1": "hEnH6sgR83Qfx7UNnphNNlelmj0=",
+			"path": "github.com/gorilla/websocket",
+			"revision": "a91eba7f97777409bc2c443f5534d41dd20c5720",
+			"revisionTime": "2017-03-19T17:27:27Z"
+		},
+		{
+			"checksumSHA1": "pK7hf5d6dW00N6hZWFM5BbYqP9E=",
+			"path": "github.com/minjs/golog",
+			"revision": "f411f4d6fc6f1a725d4f6821bfb68ec9fac9a08c",
+			"revisionTime": "2017-03-04T05:42:14Z"
+		},
+		{
+			"checksumSHA1": "bA2gANkJBx2Br/p5GKYdhyGo3Pg=",
+			"path": "golang.org/x/crypto/ssh/terminal",
+			"revision": "c84e1f8e3a7e322d497cd16c0e8a13c7e127baf3",
+			"revisionTime": "2015-04-22T11:17:00Z"
+		},
+		{
+			"checksumSHA1": "15doxxBfOxOhWExkxjPNo6Y7fEw=",
+			"path": "golang.org/x/sys/unix",
+			"revision": "833a04a10549a95dc34458c195cbad61bbb6cb4d",
+			"revisionTime": "2015-12-11T01:34:15Z"
+		},
+		{
+			"checksumSHA1": "Glsug+ZroyZo2Ucr8VZJFYatmjQ=",
+			"path": "gopkg.in/natefinch/lumberjack.v2",
+			"revision": "dd45e6a67c53f673bb49ca8a001fd3a63ceb640e",
+			"revisionTime": "2016-11-04T13:48:45Z"
+		}
+	],
+	"rootPath": "github.com/kubemonitor"
+}
