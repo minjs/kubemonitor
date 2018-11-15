@@ -152,7 +152,7 @@ func sendProcessEvent(parent string, child string, ppid, cpid int, proc *utils.P
 		containerNetNs = utils.GetNetworkNamespaceInodeForProcess(strconv.Itoa(cpid))
 		containerPidNs = utils.GetPidNamespaceInodeForProcess(strconv.Itoa(cpid))
 
-		if container == utils.DOCKER_CONTAINER {
+		if container == "docker container" {
 			containerId = utils.GetContainerIdWithPid(strconv.Itoa(cpid))
 			containerRootPid = utils.GetPidForProcessInContainer(containerId)
 			containerImage = utils.GetImageForContainer(containerId)
